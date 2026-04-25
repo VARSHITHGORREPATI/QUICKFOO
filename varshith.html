@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <SCRIPT TYPE="text/javascript">
+        var value;
+        
+        document.writeln( "<H1>Table Creation</H1>" +
+        "<TABLE BORDER = '1' WIDTH = '50%'><TR>" );
+        
+        for ( var i = 1; i <= 20; i++ ) {
+          value = i;
+          document.writeln( "<TD>" + value + "</TD>" );
+          if ( i % 5 == 0 && i != 20 )
+            document.writeln( "</TR><TR>" );
+        }
+        
+        document.writeln( "</TR></TABLE>" );
+        </SCRIPT>
+         
+</body>
+</html>
