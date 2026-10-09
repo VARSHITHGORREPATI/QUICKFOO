@@ -1,88 +1,49 @@
-# 🍔 QUICKFOO
+# QUICKFOO 🍔
 
-> *Where Culinary Excellence Meets Comfortable Hospitality*
-
-QUICKFOO is a responsive, multi-page static website for a restaurant and lodging service. It showcases a full menu, comfortable room options, team information, and company details — all wrapped in a clean, modern UI built with pure HTML & CSS.
-
----
-
-## 🌐 Live Pages
-
-| Page | Description |
-|------|-------------|
-| `home.html` | Landing page with hero section and quick navigation |
-| `food.html` | Full food menu with categories and items |
-| `rooms.html` | Room listings and accommodation details |
-| `team.html` | Meet the QUICKFOO team |
-| `about.html` | About us — mission, services, and promise |
-
----
+A responsive restaurant and accommodation website built with HTML, CSS, and JavaScript. QUICKFOO combines food ordering information, room listings, team information, and company details in a multi-page interface.
 
 ## ✨ Features
 
-- 🍽️ **Diverse Menu** — Browse a curated selection of dishes
-- 🏨 **Room Booking** — Easy-to-navigate room accommodation section
-- 🚚 **Delivery Info** — Details on swift and reliable delivery services
-- 📱 **Responsive Design** — Mobile-friendly navigation with hamburger menu
-- 🎨 **Modern UI** — Built with Google Fonts (Poppins) and Boxicons
-
----
+- Restaurant landing page
+- Food menu with categories
+- Room and accommodation listings
+- Team and company pages
+- Delivery information
+- Responsive navigation
+- Modern typography and icon-based UI
 
 ## 🛠️ Tech Stack
 
-| Technology | Usage |
-|------------|-------|
-| HTML5 | Page structure and semantic markup |
-| CSS3 | Styling, layout, and responsive design |
-| JavaScript | Navigation toggle and page redirects |
-| Google Fonts | Typography (Poppins) |
-| Boxicons | Icon library |
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+- Boxicons
 
----
+## 📁 Pages
 
-## 📁 Project Structure
-
-```
-QUICKFOO/
-├── home.html       # Landing / Hero page
-├── food.html       # Food menu page
-├── rooms.html      # Rooms & accommodation page
-├── team.html       # Team page
-├── about.html      # About us page
-├── style.css       # Global stylesheet
-├── img/            # Images and logo assets
-└── README.md       # Project documentation
+```text
+home.html       Landing page
+food.html       Food menu
+rooms.html      Accommodation
+team.html       Team information
+about.html      Company information
+style.css       Global styles
+img/            Images and assets
 ```
 
----
+## 🚀 Run Locally
 
-## 🚀 Getting Started
-
-### Option 1 — Open directly in browser
-Simply double-click `home.html` to open it in your default browser.
-
-### Option 2 — Run with a local server (recommended)
-
-**Using Python:**
 ```bash
+git clone https://github.com/VARSHITHGORREPATI/QUICKFOO.git
+cd QUICKFOO
 python -m http.server 5500
 ```
-Then open [http://localhost:5500/home.html](http://localhost:5500/home.html)
 
-**Using Node.js (npx):**
-```bash
-npx serve .
-```
+Open `http://localhost:5500/home.html` in your browser.
 
----
+## 👨‍💻 Author
 
-## 👤 Author
+**Varshith Gorrepati**
 
-**Varshith Gorrepati**  
-GitHub: [@VARSHITHGORREPATI](https://github.com/VARSHITHGORREPATI)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+[GitHub](https://github.com/VARSHITHGORREPATI) · [LinkedIn](https://www.linkedin.com/in/gorrepativarshith/)
